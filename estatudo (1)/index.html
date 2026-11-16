@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e5260">
+  <meta name="description" content="Aprenda estatística e análise de dados com exemplos práticos, videoaulas e atividades interativas.">
+  <title>Caderno de Dados | Aprender estatística com exemplos</title>
+  <link rel="icon" href="/brand.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/platform.css">
+  <script src="/platform.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo</a>
+  <header class="app-header">
+    <div class="header-main">
+      <a class="brand" href="/" data-route aria-label="Caderno de Dados — tutorial inicial">
+        <img src="/brand.svg" alt="" width="34" height="34">
+        <span class="brand-name">Caderno de Dados</span>
+      </a>
+      <div class="header-actions">
+        <button class="header-button" id="theme-toggle" type="button" aria-label="Ativar tema escuro"><span class="theme-symbol" aria-hidden="true">◐</span><span>Escuro</span></button>
+        <button class="header-button login-open" id="login-open" type="button">Entrar</button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="/" data-route>Tutorial</a>
+      <a href="/licoes" data-route>Lições</a>
+      <a href="/videoaulas" data-route>Videoaulas</a>
+      <a href="/configuracoes" data-route>Configurações</a>
+    </nav>
+  </header>
+
+  <div class="page-shell">
+    <main id="main-content" tabindex="-1">
+      <noscript>Ative o JavaScript para navegar pelas lições interativas deste site.</noscript>
+      <p>Carregando o material de estudo…</p>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="brand footer-brand" href="/" data-route><img src="/brand.svg" alt="" width="27" height="27"><span class="brand-name">Caderno de Dados</span></a>
+      <p class="footer-note">Exemplos claros. Dados bem interpretados.</p>
+      <a class="footer-top" href="#main-content">Voltar ao início ↑</a>
+    </div>
+  </footer>
+
+  <div class="login-overlay" id="login-dialog" hidden>
+    <section class="login-card" role="dialog" aria-modal="true" aria-labelledby="login-title" aria-describedby="login-warning">
+      <button class="login-close" id="login-close" type="button" aria-label="Fechar demonstração">×</button>
+      <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span>ACESSO AO CADERNO</p>
+      <h2 id="login-title">Login demonstrativo</h2>
+      <p class="login-warning" id="login-warning">Este acesso não está conectado a contas. Não use uma senha real ou reutilizada. Os campos não são enviados nem gravados; ao continuar ou fechar, serão apagados.</p>
+      <div class="login-field"><label for="demo-email">Email</label><input id="demo-email" type="email" autocomplete="off" autocapitalize="none" spellcheck="false" inputmode="email" placeholder="voce@exemplo.com"></div>
+      <div class="login-field"><label for="demo-password">Senha de demonstração</label><input id="demo-password" type="password" autocomplete="off" placeholder="Não use uma senha real"></div>
+      <button class="button button-primary demo-submit" id="demo-login-submit" type="button">Testar demonstração</button>
+      <p class="login-status" id="login-status" role="status" aria-live="polite"></p>
+    </section>
+  </div>
+</body>
+</html>

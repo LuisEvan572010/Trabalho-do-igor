@@ -1,0 +1,9 @@
+{
+  "name": "caderno-de-dados",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma de estudos de estatística por exemplos práticos, videoaulas e atividades.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
